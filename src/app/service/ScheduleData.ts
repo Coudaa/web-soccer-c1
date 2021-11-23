@@ -2,19 +2,19 @@ import { Schedule } from "../interface/schedule";
 import { Team } from "../interface/team";
 
 export const SEASON_SCHEDULE : Schedule[]=[
-    {id:1,PlayingDate:new Date(2021,08,10),HomeTeam:'Persija',
+    {id:1,PlayingDate:new Date(2021,8,10),HomeTeam:'Persija',
     AwayTeam:'Persipon',HomeScore:3,AwayScore:2,
     RefName:'Joko',Notes:'Overtime'},
-    {id:2,PlayingDate:new Date(2021,08,12),HomeTeam:'RRQ',
+    {id:2,PlayingDate:new Date(2021,8,12),HomeTeam:'RRQ',
     AwayTeam:'Pisipon',HomeScore:2,AwayScore:0,
     RefName:'Jaka',Notes:'Overkill'},
-    {id:3,PlayingDate:new Date(2021,08,14),HomeTeam:'EVOS',
+    {id:3,PlayingDate:new Date(2021,8,14),HomeTeam:'EVOS',
     AwayTeam:'Masimas',HomeScore:3,AwayScore:2,
     RefName:'Jeke',Notes:'Overmute'},
-    {id:4,PlayingDate:new Date(2021,08,16),HomeTeam:'AE',
+    {id:4,PlayingDate:new Date(2021,8,16),HomeTeam:'AE',
     AwayTeam:'Bambang',HomeScore:3,AwayScore:2,
     RefName:'Juku',Notes:'Overloud'},
-    {id:5,PlayingDate:new Date(2021,08,18),HomeTeam:'BTR',
+    {id:5,PlayingDate:new Date(2021,8,18),HomeTeam:'BTR',
     AwayTeam:'Merdeka',HomeScore:2,AwayScore:0,
     RefName:'Jiki',Notes:'Overskill'},
 ]
