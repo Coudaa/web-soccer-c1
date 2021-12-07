@@ -48,7 +48,7 @@ export class ScoringComponent implements OnInit {
 
   public onRecordScores(){
     this.MySchedule[this.CurGame-1].AwayScore = Number(this.AwayScore);
-    this.MySchedule[this.CurGame-1].HomeScore = Number(this.AwayScore);
+    this.MySchedule[this.CurGame-1].HomeScore = Number(this.HomeScore);
   }
 
   //update screen variable based on the current game
